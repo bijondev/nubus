@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+      <title>TRUE BUS</title>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+      <!-- custom CSS -->
+      <link href="css/truebus.css" rel="stylesheet">
+       <link href="css/jquery-datepicker.css">
+       <link href="css/jquery-timepicker.css">
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <link href="css/ie10-viewport-bug-workaround.css">
+      <!-- Custom styles for this template -->
+      <link href="css/starter-template.css" rel="stylesheet">
+     
+      
+       
+      <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+      <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+       
+         <script src="js/jquery.js"></script>
+      <script src="js/ie-emulation-modes-warning.js"></script>
+      <script type="text/javascript" src="/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+       <script src="js/jquery-datepicker.js"></script>
+       <script src="js/jquery-timepicker.js"></script>
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+     
+         <!--HEADER-BAR-->
+         <div class="tb_header">
+            <div class="container">
+               <div class="col-md-6" style="padding:0;">
+                  <div class="tb_logo"> <a href="#"><img src="images/tb-logo.png"> </a> </div>
+               </div>
+               <div class="col-md-4" style="padding:0;">
+                  <div class="tb_navbar">
+                     <ul>
+                        <li><a href="#">Home &nbsp;<span style="color:#f0a2a3;"> |</span></a></li>
+                        <li><a href="#">Print/SMS Ticket &nbsp;  <span style="color:#f0a2a3;"> |</span></a></li>
+                        <li><a href="#">Easy Cancel/Refund</a> </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-2" style="padding:0;">
+                  <div class="signin_up">
+                     <ul>
+                        <li><a href="#myModal" data-toggle="modal" data-target="#myModals">Sign In</a>  <span style="color:#f0a2a3;">/</span></li>
+                        <li><a href="#myModals" data-toggle="modal" data-target="#myModal">Sign Up</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="shadow"><img src="images/shadow.png"></div>
+         </div>
+         <!--HEADER-BAR-END-->
+         <!-- Modal -->
+         <div class="modal fade" id="myModals" role="dialog">
+            <div class="modal-dialog">
+               <!-- Modal content-->
+               <button type="button" class="close_lft" data-dismiss="modal">&times;</button>
+               <div class="login-block">
+                  <h1>Login</h1>
+                  <input type="text" value="" placeholder="Email" id="username" />
+                  <input type="password" value="" placeholder="Password" id="password" />
+                  <input type="checkbox" id="checkbox3" class="css-checkbox" checked="checked"/>
+                  <label for="checkbox3" name="checkbox2_lbl" class="css-label lite-red-check">Remember Me</label>
+                  <button>login</button>
+                  <br>
+                  <br>
+                  <div class="forgot"><a href="#">Forgot Password?</a></div>
+                  <div class="sign_in"><a href="#myModal">Sign Up</a></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+               <!-- Modal content-->
+               <button type="button" class="close_lft" data-dismiss="modal">&times;</button>
+               <div class="login-block">
+                  <h1>Sign Up</h1>
+                  <input type="text" value="" placeholder="Email" id="username" />
+                  <input type="password" value="" placeholder="Password" id="password" />
+                  <input type="password" value="" placeholder="Repeat Password" id="password" /><br>
+                  <span class="terms_tb">By signing up, you agree to our <a class="cond_tb" href="#">Terms and Conditions.</a></span> <br>
+                  <br>
+                  <button>Sign up</button>
+                  <br>
+                  <br>
+                  <div class="account"><a href="#">Already have an account?</a></div>
+                  <div class="sign_in"><a href="#myModals"data-toggle="modal" data-target="#myModals">Sign In</a></div>
+               </div>
+            </div>
+         </div>
+         <!--SEARCH-BAR-->
+         <div class="container">
+            <div class="row mtop">
+			
+				
+				
+               <div class="col-md-12">
+             
+				<div class="not_foundp">
+				   <img src="images/404page.png">
+				   
+				   </div>
+              
+            </div>
+         </div>
+         <!--SEARCH-BAR-END-->
+         <!--operator-BAR-->
+      
+       
+         <!--offers-BAR-->
+      
+         <!--offers-BAR end-->
+         <!--list-BAR-->
+         <div class="container">
+            <div class="rb_list">
+               <div class="row">
+              <div class="ops_nt">Redirect to <i style="color:#D30008;">home</i> page</div>
+               </div>
+            </div>
+            <hr class="border2">
+            </hr>
+         </div>
+         <!--list-BAR end-->
+         <!--footer-BAR-->
+         <div class="container">
+         <div class="row">
+         <div class="tb_inner">
+         <div class="col-md-9">
+         <div class="tb_footer">
+         <ul>
+         <li><a href="#">About &nbsp;|</a></li>
+         <li><a href="#">FAQ   &nbsp;|</a></li>
+         <li><a href="#">Careers  &nbsp;|</a></li>
+         <li><a href="#">Coupons  &nbsp; |</a></li>
+         <li><a href="#">Contact Us   &nbsp;|</a></li>
+         <li><a href="#">Terms of Use   &nbsp;|</a></li>
+         <li><a href="#">Privacy Policy   &nbsp;|</a></li>
+         <li><a href="#">on Mobilenew .</a></li>
+         </ul>
+         </div>
+         <!-- <div class="footer_con">  &#169;  2016 TrueBus All Rights Reserved</div> -->
+         </div>
+         <div class="col-md-3">
+         <div class="tb_social">
+         <ul>
+         <li>  <a href="#"><img src="images/facebook.png"></a> </li> 
+         <li>  <a href="#"> <img src="images/twitter.png"></a></li>
+         <li>  <a href="#">  <img src="images/google.png"></a></li>
+         </ul>
+         </div>
+         </div>
+         </div>
+         </div>
+         </div>
+
+   
+      <!--footer-BAR -end-->
+      <!-- Bootstrap core JavaScript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+    
+ 
+      <!--   custom JavaScript -->
+      <script src="js/truebus.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="js/ie10-viewport-bug-workaround.js"></script>
+<script>
+    $( document ).ready(function() {
+    $(".pickup_date").datepicker({
+            minDate: 0//this option for allowing user to select from year range
+        });
+});
+
+</script>
+   </body>
+</html>
+

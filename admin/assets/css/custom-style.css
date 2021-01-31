@@ -1,0 +1,122 @@
+
+.user-panel>.image>img {
+    background-image: url(../images/user.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    max-width: 100px;
+    height: 50px
+}
+.navbar-nav>.user-menu .user-image {
+	background-image: url(../images/user.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>img {
+	background-image: url(../images/user.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header {
+	height:50px !important;
+}
+
+.dropdown-toggle {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+}
+.modal-wide .modal-dialog {
+	width:80% !important;
+}
+
+.modal-content .box {
+	border-left:1px solid #f4f4f4;
+}
+
+.select2-selection--multiple .select2-search--inline .select2-search__field {
+	width:1px !important;
+	border:none !important;
+}
+#map_canvas {
+   height: 350px;
+   width: 98%;
+}
+
+.input_size{width: 322px !important;}
+
+/* Profile Pic change */
+.user-profile-pic {
+	position:relative;
+}
+.profile-user-img {
+	height:150px;
+	width:150px;
+	background-image: url(../images/user.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:0px;
+}
+.change-profile-pic {
+	position:absolute;
+	width:150px;
+	background-color:rgba(0,0,0,0.5);
+	height:150px;
+	border-radius:200px;
+	left:calc(50% - 75px);
+	bottom:0;
+	
+	display:none;
+}
+.user-profile-pic:hover .change-profile-pic {
+	display:block;
+}
+.uploadFile {
+	background: url('../images/whitecam.png') no-repeat;
+	height: 32px;
+	width: 32px;
+	position:absolute;
+	left: -webkit-calc(50% - 16px);
+	left: calc(50% - 16px);
+	bottom:calc(50% - 16px);
+	overflow: hidden;
+	cursor: pointer;
+}
+.uploadFile input {
+	filter: alpha(opacity=0);
+	opacity: 0;
+	margin-left: -110px;
+}
+.custom-file-input {
+	height: 35px;
+	cursor: pointer;
+}
+.left-sid{max-width: 52px !important;border-radius: 50%;}
+
+.box_sizes{width: 100% !important;}
+
+
+.sleeper{
+	background-image: url(./images/1.png);background-repeat: no-repeat;height: 23px;
+    width: 34px;
+	margin-top:10px;
+	  height: 41px;
+}.seater{
+	background-image: url(./images/4.png);background-repeat: no-repeat;height: 23px;
+    width: 34px;
+	margin-top:10px;
+	  height: 41px;
+}.sleeper1{
+	background-image: url(../images/empty.png);background-repeat: no-repeat;height: 23px;
+    width: 34px;
+	margin-top:10px;
+	  height: 41px;
+}
+
+
+
+
+
+
+
+
+
+
